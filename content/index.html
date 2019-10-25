@@ -123,14 +123,14 @@ img.add_border {
             <header class="site-navbar py-4 bg-white" role="banner">
               <div class="container-fluid">
                 <div class="row align-items-center">
-                <h1>s40723103-cad2019 機構系統網頁</h1>
+                <h1>s40723103-cad2019 </h1>
                 <div class="pl-4">
                     <form>
                     <input type="text" placeholder="Search" name="q" id="tipue_search_input" pattern=".{2,}" title="At least 2 characters" required>
                     </form>
                 </div>
                   <!-- <div class="col-11 col-xl-2">
-                    <h1 class="mb-0 site-logo"><a href="index.html" class="text-black h2 mb-0">s40723103-cad2019 機構系統網頁</a></h1> 
+                    <h1 class="mb-0 site-logo"><a href="index.html" class="text-black h2 mb-0">s40723103-cad2019 </a></h1> 
                   </div>
                   -->
                   <div class="col-12 col-md-10 d-none d-xl-block">
@@ -143,7 +143,7 @@ img.add_border {
                             <li><a href="./../blog/index.html">blog</a></li>
                         </ul>
                       </li>
-                     <li><a href='問題與處理.html'>問題與處理</a><li class='has-children'><a href='solvespace介紹.html'>solvespace介紹</a><ul class='dropdown'><li><a href='solvespace編譯.html'>solvespace編譯</a><li><a href='solvespace操作.html'>solvespace操作</a></li></ul><li><a href='v-rep介紹.html'>v-rep介紹</a><li class='has-children'><a href='關於cmsimde.html'>關於cmsimde</a><ul class='dropdown'><li><a href='develop.html'>develop</a></li>
+                     <li><a href='About.html'>About</a><li><a href='Develop.html'>Develop</a><li class='has-children'><a href='每週內容.html'>每週內容</a><ul class='dropdown'><li><a href='WEEK2.html'>WEEK2</a><li><a href='WEEK3.html'>WEEK3</a><li><a href='WEEK5.html'>WEEK5</a><li><a href='WEEK6.html'>WEEK6</a><li><a href='WEEK7.html'>WEEK7</a><li><a href='WEEK8.html'>WEEK8</a><li><a href='WEEK9.html'>WEEK9</a></li>
                       </ul>
                 </nav>
               </div>
@@ -154,13 +154,21 @@ img.add_border {
           </div>
           
         </header>
-    <div id="tipue_search_content"> <a href='solvespace介紹.html'>Next</a> >> solvespace介紹<br /><h1>問題與處理</h1>
-<p>Q:關於sharX為何無法在電腦開啟或是使用</p>
-<p>A:必須在sharX裡的路徑設定正確，否則電腦會隨著開啟sharX的同時去追錯誤路徑，以下影片可排除問題。</p>
-<p><iframe allowfullscreen="allowfullscreen" height="550" src="//www.youtube.com/embed/mKhjcfa3dkU" width="600"></iframe></p>
+    <div id="tipue_search_content"> <a href='Develop.html'>Next</a> >> Develop<br /><h1>About</h1>
+<p>此內容管理系統以 <a href="https://github.com/mdecourse/cmsimde">https://github.com/mdecourse/cmsimde</a> 作為 submodule 運作, 可以選定對應的版本運作, cmsimde 可以持續改版, 不會影響之前設為 submodule, 使用舊版 cmsimde 模組的內容管理相關運作.</p>
+<h4>利用 cmsimde 建立靜態網誌方法:</h4>
+<p>1. 在 github 建立倉儲, git clone 到近端</p>
+<p>2. 參考 <a href="https://github.com/mdecourse/newcms">https://github.com/mdecourse/newcms</a>, 加入除了 cmsimde 目錄外的所有內容</p>
+<p>以 git submodule add <a href="https://github.com/mdecourse/cmsimde">https://github.com/mdecourse/cmsimde</a> cmsimde</p>
+<p>建立 cmsimde 目錄, 並從 github 取下子模組內容.</p>
+<p>3.在近端維護時, 更換目錄到倉儲中的 cmsimde, 以 python wsgi.py 啟動近端網際伺服器.</p>
+<p>動態內容編輯完成後, 以 generate_pages 轉為靜態內容, 以 git add commit 及 push 將內容推到遠端.</p>
+<p>4. 之後若要以 git clone 取下包含 submodule 的所有內容, 執行:</p>
+<p>git clone --recurse-submodules<span> </span><a href="https://github.com/mdecourse/newcms.git">https://github.com/mdecourse/newcms.git</a></p>
 <p></p>
 <p></p>
-<p><a href="https://github.com/mdecourse/cmsimde"></a></p><br /> <a href='solvespace介紹.html'>Next</a> >> solvespace介紹</div>
+<p></p>
+<p><a href="https://github.com/mdecourse/cmsimde"></a></p><br /> <a href='Develop.html'>Next</a> >> Develop</div>
         
     <!-- footer -->
       <div class="container">
