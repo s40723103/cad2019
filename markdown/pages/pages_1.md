@@ -10,6 +10,8 @@ Title: About
 
 課程網誌: <a href="https://chiamingyen.github.io/cmsimfly/blog">https://chiamingyen.github.io/cmsimfly/blog</a>
 
+期中影片網址:<a href="https://www.youtube.com/watch?v=KCq9y73_UIY&t=8s">https://www.youtube.com/watch?v=KCq9y73_UIY&t=8s</a>
+
 
 
 
