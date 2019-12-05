@@ -10,9 +10,13 @@
 <p>4. 之後若要以 git clone 取下包含 submodule 的所有內容, 執行:</p>
 <p>git clone --recurse-submodules<span> </span><a href="https://github.com/mdecourse/newcms.git">https://github.com/mdecourse/newcms.git</a></p>
 <h2>處理錯誤程序</h2>
-<p></p>
-<p></p>
-<p></p>
+<p><span style="color: #ff6600;">1</span>.當倉儲git pull+分組倉儲網址後發現無法正常開啟近端</p>
+<p><span style="color: #ff0000;">A</span>:<br/>將倉儲start鍵放入文字編輯器並且查看，發現有多一個分號（：），將分號刪除並儲存後即可進入近端。</p>
+<p><span style="color: #000000;">原因</span>：<br/>因為有人倉儲本身是壞的，因此當其他人gitpull時會讓他人倉儲錯誤，造成倉儲近端損毀。</p>
+<p>Before</p>
+<p><img alt="" height="733" src="/images/SciTE_36MTvUZbDJ.png" width="562"/></p>
+<p>After</p>
+<p><img alt="" height="733" src="/images/SciTE_WmXxrhgYK4.png" width="562"/></p>
 <p><a href="https://github.com/mdecourse/cmsimde"></a></p><h1>Develop</h1>
 <p><a href="https://github.com/mdecourse/cmsimde">https://github.com/mdecourse/cmsimde</a> 的開發, 可以在一個目錄中放入 cmsimde, 然後將 up_dir 中的內容放到與 cmsimde 目錄同位階的地方, 使用 command 進入 cmsimde 目錄, 執行 python wsgi.py, 就可以啟動, 以瀏覽器 https://localhost:9443 就可以連接, 以 admin 作為管理者密碼, 就可以登入維護內容.</p>
 <p>cmsimde 的開發採用 Leo Editor, 開啟 cmsimde 目錄中的 cmsimde.leo 就可以進行程式修改, 結束後, 若要保留網際內容, 只要將 cmsimde 外部的內容倒回 up_dir 目錄中即可後續對 cmsimde 遠端倉儲進行改版.</p>
@@ -95,6 +99,31 @@
 <p><span style="color: #008000;"></span></p>
 <p></p><h2>Week9</h2>
 <p>期中報告繳交</p>
-<p>期中影片需有浮水印</p>
+<p>期中影片需有<span style="color: #ff6600;">浮水印</span></p>
 <p><iframe allowfullscreen="allowfullscreen" height="450" src="//www.youtube.com/embed/KCq9y73_UIY" width="600"></iframe>期中blog成品展現</p>
-<p></p>
+<p><img alt="" height="295" src="/images/chrome_2019-11-15_04-49-40.jpg" width="600"/></p>
+<p>blog網誌網址:</p>
+<p><span style="color: #ff6600;"><a href="https://s40723103.github.io/cad2019/blog/index.html" style="color: #ff6600;">https://s40723103.github.io/cad2019/blog/index.html</a></span></p>
+<h2>Week10-11</h2>
+<h5><strong>ntroduction Pull request</strong></h5>
+<p><span style="color: #ff6600;"><strong>正反向拉回差別在於資料傳遞的方向。</strong></span></p>
+<p>假設是正向拉回，是<span>組員(無權限)將資料推送回組別倉儲後給組長(管理員)確認資料後使其合併</span>。</p>
+<p>反之，反向拉回是<span>管理者將權限給予組員讓他們擁有可merge的權力</span>，不過在這邊很常因為組員推送問題產生衝突，並且解決方式較為繁瑣，因此這學期並不推薦使用反向拉回的方式管理組別倉儲。</p>
+<p>以下為正向拉回範例:</p>
+<p><strong><span>step1</span></strong></p>
+<p><strong><span><img alt="" height="446" src="/images/chrome_2019-11-29_03-28-40.png" width="700"/></span></strong></p>
+<p><strong>先點入自己分組倉儲之pull request，出現畫面為(圖1)</strong></p>
+<p><strong></strong></p>
+<p><strong><span lang="zh-TW" tabindex="0">這時出現merge問題，但仍可以pull request，並按下Create</span></strong></p>
+<pre class="tw-data-text tw-text-large tw-ta" data-placeholder="翻譯" dir="ltr"><strong><span lang="zh-TW" tabindex="0">pull request之按鍵<br/><br/><br/></span></strong></pre>
+<pre class="tw-data-text tw-text-large tw-ta" data-placeholder="翻譯" dir="ltr"><span lang="zh-TW" tabindex="0"><strong><span>step2<br/><img alt="" height="447" src="/images/chrome_2019-11-29_03-29-12.png" width="700"/></span></strong><br/><br/><strong>確認完再按下標題與傳遞內容後再按下</strong></span><strong><span lang="zh-TW" tabindex="0">Create </span></strong><span lang="zh-TW" tabindex="0"><strong>pull request<br/><br/><br/></strong></span></pre>
+<pre class="tw-data-text tw-text-large tw-ta" data-placeholder="翻譯" dir="ltr" id="tw-target-text"><span lang="zh-TW" tabindex="0"><strong><span>step3<br/><img alt="" height="442" src="/images/chrome_2019-11-29_03-31-21.png" width="700"/></span></strong><br/><br/><strong>出現畫面代表衝突檔案，需由管理員(組長)確認資料並合併之後處理衝突版面並再次推送，</strong><br/><strong>藉此merge完成</strong></span></pre>
+<pre class="tw-data-text tw-text-large tw-ta" data-placeholder="翻譯" dir="ltr"><span lang="zh-TW" tabindex="0"><strong> </strong></span></pre>
+<pre class="tw-data-text tw-text-large tw-ta" data-placeholder="翻譯" dir="ltr" id="tw-target-text"><strong><span lang="zh-TW" tabindex="0"> </span></strong></pre><h2>Week12</h2>
+<p><iframe allowfullscreen="allowfullscreen" height="450" src="//www.youtube.com/embed/tgTjdzZdQTk" width="600"></iframe><span style="color: #ff6600;"></span></p>
+<p><span style="color: #ff6600;">網址:<a href="https://www.youtube.com/watch?v=tgTjdzZdQTk" style="color: #ff6600;">https://www.youtube.com/watch?v=tgTjdzZdQTk</a></span></p>
+<p>心得:</p>
+<p>對於剛接觸兩款軟體的新手而言，<span style="color: #ff6600;">NX12</span>為接受度較高的高階套件，模擬與加工程序與應力分析和繪製3D草圖為該套件之特色，並且指令相對於簡潔明瞭，運用在繪製草圖或是物件分析的部分都做得相對周到，儘管模擬加工方面之限制比較多之外，整體操作上較為順手。</p>
+<p>另一方面<span style="color: #ff6600;">Webots</span>主要為3D模擬套件，實際使用物體去模擬移動位置，可變換出不同場景已供參考，在設定操作步驟方面相對繁瑣，而測試機器人與機械傳動件作動為該套件主要特性，也可指定對象的圖形和物理屬性。</p>
+<p><span style="color: #ff6600;">註</span>:圖形屬性包括對象的形狀，尺寸，位置和方向，顏色和紋理。</p>
+<p><span style="color: #ff6600;">結論:<span style="color: #000000;">兩者套件比較下，個人偏向使用NX操作，因操作明瞭標示明顯，各指令也會給予相對詳細的解說，是新手也能操作順手的軟體。</span></span></p><h2>Week13</h2>
