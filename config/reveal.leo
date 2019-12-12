@@ -20,6 +20,8 @@
 <v t="leo.20180902120523.8"><vh>slides div</vh>
 <v t="leo.20180902120523.9"><vh>封面投影片</vh>
 <v t="leo.20180902120523.10"><vh>封面投影片內容</vh></v>
+<v t="leo.20191213000522.1"><vh>13週內容</vh></v>
+<v t="leo.20191213003031.1"><vh>13週內容</vh></v>
 </v>
 <v t="leo.20180902120523.11"><vh>快捷鍵</vh>
 <v t="leo.20180902120523.12"><vh>投影片快捷鍵</vh></v>
@@ -50,10 +52,12 @@
 ### Yan-ying Lin
 
 &lt;small&gt;
-Created by [KMOLab](http://lab.kmol.info/)
+Created by [40723103](https://github.com/s40723103/cad2019)
 &lt;/small&gt;
 
-[CMSimfly 網誌](./../blog/index.html)
+[網頁連結](./../content/index.html)
+
+[網誌連結](./../blog/index.html)
 
 
 </t>
@@ -323,5 +327,50 @@ QLineEdit#editorLabel {
 }</t>
 <t tx="leo.20180902120538.3">horizontal: body pane to the left
 vertical: body pane on the botton</t>
+<t tx="leo.20191213000522.1">#13週-Solvespace 與 NX12 參數繪圖與 V-rep 結合應用
+
+重點筆記:     講解NX3與NX12之間特性、差異
+
+NX3
+使用輸出VRML[選VRML2.0，轉入Webots(副檔名.wrl)]
+並勾選選項
+        1.output lights
+        2.output matenals
+        3.recursive multi file
+註:
+        1.imput VRML為Webots打開之檔案類型
+        2.solvespace無法轉成wrl檔
+        3.wrl檔為文字檔
+        
+NX12
+重要檔案
+        1.NXASSEMBLY(作用為轉檔)=IGES也是轉檔
+        2.NXBIN
+        3.UGII
+註:
+        1.Journal=畫圖中並同時儲存
+        
+比較差異
+
+NX3=較陽春，但簡便，可執行放在UGII檔裡
+
+NX12=規格、功能性相對齊全，但為了配合Windows 7之後的升級改版，直接將大部分檔案放在NXBIN裡，不過有些重要檔案仍儲存在UGII裡。
+
+
+
+        </t>
+<t tx="leo.20191213003031.1">#13週-Solvespace 與 NX12 參數繪圖與 V-rep 結合應用
+
+重點筆記:     將NX12程式語言改成Python
+
+改寫位置之操作順序:
+File&gt;Preferences&gt;User interface&gt;Tools
+
+原先Journal language中將Visual Basic選項改為Python選項
+
+目的:
+主要方面日後藉由程式去操作NX12
+
+Finish.</t>
 </tnodes>
 </leo_file>
