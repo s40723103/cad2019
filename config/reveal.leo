@@ -346,25 +346,18 @@ vertical: body pane on the botton</t>
 
 						
 </t>
-<t tx="leo.20191213004522.3">##13週-Solvespace 與 NX12 參數繪圖與 V-rep 結合應用
+<t tx="leo.20191213004522.3">## 13週-Solvespace 與 NX12 參數繪圖與 V-rep 結合應用
 
 重點筆記:  講解NX3與NX12之間特性、差異
 
-*NX3
-
+NX3
 使用輸出VRML[選VRML2.0，轉入Webots(副檔名.wrl)]，並勾選以下選項
-
 1.output lights
-        
 2.output matenals
-        
 3.recursive multi file
 註
-
 1.imput VRML為Webots打開之檔案類型
-        
 2.solvespace無法轉成wrl檔
-        
 3.wrl檔為文字檔
 
 
@@ -379,7 +372,7 @@ vertical: body pane on the botton</t>
 
 						
 </t>
-<t tx="leo.20191213005013.3">##13週-Solvespace 與 NX12 參數繪圖與 V-rep 結合應用
+<t tx="leo.20191213005013.3">## 13週-Solvespace 與 NX12 參數繪圖與 V-rep 結合應用
 
 重點筆記:     將NX12程式語言改成Python
 
@@ -401,17 +394,13 @@ Finish.</t>
 
 						
 </t>
-<t tx="leo.20191213005317.2">##13週-Solvespace 與 NX12 參數繪圖與 V-rep 結合應用
+<t tx="leo.20191213005317.2">## 13週-Solvespace 與 NX12 參數繪圖與 V-rep 結合應用
 
 NX12
-
 以下為nx12重要檔案
 1.NXASSEMBLY(作用為轉檔)=IGES也是轉檔
-        
 2.NXBIN
-        
 3.UGII0
-        
 註
 1.Journal=畫圖中並同時儲存
 </t>
@@ -424,7 +413,7 @@ NX12
 
 						
 </t>
-<t tx="leo.20191213005418.2">##13週-Solvespace 與 NX12 參數繪圖與 V-rep 結合應用
+<t tx="leo.20191213005418.2">## 13週-Solvespace 與 NX12 參數繪圖與 V-rep 結合應用
 
 重點筆記:     講解NX3與NX12之間特性、差異
 
