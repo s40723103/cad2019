@@ -20,8 +20,10 @@
 <v t="leo.20180902120523.8"><vh>slides div</vh>
 <v t="leo.20180902120523.9"><vh>封面投影片</vh>
 <v t="leo.20180902120523.10"><vh>封面投影片內容</vh></v>
-<v t="leo.20191213000522.1"><vh>13週內容</vh></v>
-<v t="leo.20191213003031.1"><vh>13週內容</vh></v>
+</v>
+<v t="leo.20191213004522.1"><vh>13 week</vh>
+<v t="leo.20191213004522.3"><vh>13週內容-1</vh></v>
+<v t="leo.20191213004522.4"><vh>13週內容-2</vh></v>
 </v>
 <v t="leo.20180902120523.11"><vh>快捷鍵</vh>
 <v t="leo.20180902120523.12"><vh>投影片快捷鍵</vh></v>
@@ -327,7 +329,16 @@ QLineEdit#editorLabel {
 }</t>
 <t tx="leo.20180902120538.3">horizontal: body pane to the left
 vertical: body pane on the botton</t>
-<t tx="leo.20191213000522.1">#13週-Solvespace 與 NX12 參數繪圖與 V-rep 結合應用
+<t tx="leo.20191213004522.1">&lt;section data-markdown&gt;
+    &lt;script type="text/template"&gt;
+@others
+    &lt;/script&gt;
+&lt;/section&gt;
+
+
+						
+</t>
+<t tx="leo.20191213004522.3">#13週-Solvespace 與 NX12 參數繪圖與 V-rep 結合應用
 
 重點筆記:     講解NX3與NX12之間特性、差異
 
@@ -359,7 +370,7 @@ NX12=規格、功能性相對齊全，但為了配合Windows 7之後的升級改
 
 
         </t>
-<t tx="leo.20191213003031.1">#13週-Solvespace 與 NX12 參數繪圖與 V-rep 結合應用
+<t tx="leo.20191213004522.4">#13週-Solvespace 與 NX12 參數繪圖與 V-rep 結合應用
 
 重點筆記:     將NX12程式語言改成Python
 
