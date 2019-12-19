@@ -10,14 +10,40 @@
 <p>4. 之後若要以 git clone 取下包含 submodule 的所有內容, 執行:</p>
 <p>git clone --recurse-submodules<span> </span><a href="https://github.com/mdecourse/newcms.git">https://github.com/mdecourse/newcms.git</a></p>
 <h2>處理錯誤程序</h2>
-<p><span style="color: #ff6600;">1</span>.當倉儲git pull+分組倉儲網址後發現無法正常開啟近端</p>
+<p>Q<span style="color: #ff6600;">當倉儲git pull+分組倉儲網址後發現無法正常開啟近端</span></p>
 <p><span style="color: #ff0000;">A</span>:<br/>將倉儲start鍵放入文字編輯器並且查看，發現有多一個分號（：），將分號刪除並儲存後即可進入近端。</p>
-<p><span style="color: #000000;">原因</span>：<br/>因為有人倉儲本身是壞的，因此當其他人gitpull時會讓他人倉儲錯誤，造成倉儲近端損毀。</p>
+<p><span style="color: #000000;"><span style="color: #ff0000;">RESEASON</span>原因</span>：<br/>因為有人倉儲本身是壞的，因此當其他人gitpull時會讓他人倉儲錯誤，造成倉儲近端損毀。</p>
 <p>Before</p>
 <p><img alt="" height="733" src="/images/SciTE_36MTvUZbDJ.png" width="562"/></p>
 <p>After</p>
 <p><img alt="" height="733" src="/images/SciTE_WmXxrhgYK4.png" width="562"/></p>
-<p><a href="https://github.com/mdecourse/cmsimde"></a></p><h1>Develop</h1>
+<p>Q<span style="color: #ff6600;">為什麼用了git pull 分組倉儲網址完無法正確連結完成並進行改</span></p>
+<p><span style="color: #ff0000;">A:</span></p>
+<p>先將倉儲中最新版本反向拉回（左為本身，右為管理者）並且git commit git push上去後再次進入近端即可改為最新版本進行改版推送</p>
+<p>EX:</p>
+<p><img alt="" height="38" src="/images/1576172831774.jpg" width="700"/></p>
+<p><span style="color: #ff0000;">RESEASON</span>(原因 ):<br/>有可能因為尚未推送回分組倉儲使最新版本與自身隨身碟中可攜系統舊版沒有連結成功，因此git pull 分組倉儲網址完進入近端才會還是舊版</p>
+<p>Q<span style="color: #ff6600;">為什麼管理員merge完會使倉儲爆掉，產生舊版與新版衝突(如下)</span></p>
+<p><img alt="" height="439" src="/images/chrome_NgGYXIPV5c.png" width="900"/></p>
+<p><span style="color: #ff0000;">A:</span></p>
+<p>在這次解決問題中，由於近端未有衝突問題並且使用正常，進入近端按下轉靜態後再次git push上傳即可恢復網頁</p>
+<p><span style="color: #ff0000;">RESEASON</span><span>(原因 ):</span></p>
+<p>有可能是因為其中一位倉儲推送上去使用到git pull的緣故使得新舊版產生合併問題，造成有兩個版面的緣由</p>
+<p>Q<span style="color: #ff6600;">進入近端卻直接跳下一行並沒有做任何作動</span></p>
+<p>EX:</p>
+<p>D:\87\cmsimde&gt;python wsgi.py</p>
+<p><span>D:\87\cmsimde&gt;</span></p>
+<p><span style="color: #ff0000;">A:</span></p>
+<p><span style="color: #ff0000;"><span style="color: #000000;">將啟動程式按鍵(start_mdecourse.bat)拖曳到SciTe裡，並將裡面其中一行程式多餘的開頭程式<span>%path%</span>刪除，重新啟動(按下Stop.bat)即可恢復正常。</span><br/></span></p>
+<p><span style="color: #ff0000;"><span style="color: #000000;"><img alt="" height="710" src="/images/SciTE_2019-12-19_22-28-04.png" width="800"/></span></span></p>
+<p><span style="color: #ff0000;"><span style="color: #000000;">如上圖所示，但前面的<span>%path%以更改完畢，因此範例中的程式是已經改善完畢的。</span></span></span></p>
+<p><span style="color: #ff0000;">RESEASON(原因 ):</span></p>
+<p><span style="color: #ff0000;"><span style="color: #000000;"><span>因為%path%為進入近端之bug，需查看是否修正完畢。</span></span></span></p>
+<h2>webots</h2>
+<p><span></span></p>
+<p></p>
+<p><span></span></p>
+<p></p><h1>Develop</h1>
 <p><a href="https://github.com/mdecourse/cmsimde">https://github.com/mdecourse/cmsimde</a> 的開發, 可以在一個目錄中放入 cmsimde, 然後將 up_dir 中的內容放到與 cmsimde 目錄同位階的地方, 使用 command 進入 cmsimde 目錄, 執行 python wsgi.py, 就可以啟動, 以瀏覽器 https://localhost:9443 就可以連接, 以 admin 作為管理者密碼, 就可以登入維護內容.</p>
 <p>cmsimde 的開發採用 Leo Editor, 開啟 cmsimde 目錄中的 cmsimde.leo 就可以進行程式修改, 結束後, 若要保留網際內容, 只要將 cmsimde 外部的內容倒回 up_dir 目錄中即可後續對 cmsimde 遠端倉儲進行改版.</p>
 <p>init.py 位於  up_dir 目錄, 可以設定 site_title 與 uwsgi 等變數.</p>
@@ -129,3 +155,25 @@
 <p>另一方面<span style="color: #ff6600;">Webots</span>主要為3D模擬套件，實際使用物體去模擬移動位置，可變換出不同場景已供參考，在設定操作步驟方面相對繁瑣，而測試機器人與機械傳動件作動為該套件主要特性，也可指定對象的圖形和物理屬性。</p>
 <p><span style="color: #ff6600;">註</span>:圖形屬性包括對象的形狀，尺寸，位置和方向，顏色和紋理。</p>
 <p><span style="color: #ff6600;">結論:<span style="color: #000000;">兩者套件比較下，個人偏向使用NX操作，因操作明瞭標示明顯，各指令也會給予相對詳細的解說，是新手也能操作順手的軟體。</span></span></p><h2>Week13</h2>
+<p>第13週-Solvespace 與 NX12 參數繪圖與 V-rep 結合應用</p>
+<p>重點筆記: 講解NX3與NX12之間特性、差異</p>
+<p><span style="color: #ff6600;">NX3</span><br/>使用輸出VRML[選VRML2.0，轉入Webots(副檔名.wrl)]<br/>並勾選選項<br/>1.output lights<br/>2.output matenals<br/>3.recursive multi file<br/><span>註</span>:<br/>1.imput VRML為Webots打開之檔案類型<br/>2.solvespace無法轉成wrl檔<br/>3.wrl檔為文字檔<br/><br/><span style="color: #ff6600;">NX12</span><br/>重要檔案<br/>1.NXASSEMBLY(作用為轉檔)=IGES也是轉檔<br/>2.NXBIN<br/>3.UGII<br/>註:<br/>1.Journal=畫圖中並同時儲存<br/><br/><span style="color: #ff0000;">比較差異</span></p>
+<p><span>NX3</span>=較陽春，但簡便，可執行放在UGII檔裡</p>
+<p><span>NX12</span>=規格、功能性相對齊全，但為了配合Windows 7之後的升級改版，直接將大部分檔案放在NXBIN裡，不過有些重要檔案仍儲存在UGII裡。</p>
+<p><span style="color: #ff0000;">HOW TO 將NX12程式語言改成Python</span></p>
+<p><span style="color: #ff0000;">A</span>:</p>
+<p>改寫位置之操作順序:<br/>File&gt;Preferences&gt;User interface&gt;Tools</p>
+<p>原先Journal language中將Visual Basic選項改為Python選項</p>
+<p>目的:<br/>主要方面日後藉由程式去操作NX12</p>
+<h2>Week14</h2>
+<p><span><span style="color: #ff6600;">任務</span>:</span></p>
+<p><span>同步<span style="color: #ff6600;">啟動跨組自評與互評機制</span>, 並針對課程內容所要求的任務要項逐一查驗各組員學習成效, 希望在鼓勵組員公開倉儲內容與教學影片互相學習之餘, 也能達到公平計分的目的，同時也強制性規定需作筆記。</span></p>
+<p><span style="color: #ff0000;">在第十四週也逐步介紹NX、Solvespace、Webots的執行與互動</span></p>
+<p><span style="color: #000000;">Q.如何用SciTe執行Python，與<span>NX、Solvespace、Webots互動</span></span></p>
+<p><span style="color: #000000;"><span>A:</span></span><span style="color: #000000;"><span>程式由外部控制虛擬、實體(大略贅述，詳情敘述只紀錄關鍵字)</span></span></p>
+<p><span style="color: #ff6600;">片刻紀錄</span><span style="color: #000000;"><span>:</span></span></p>
+<p><span style="color: #000000;"><span><span style="color: #ff6600;">1</span>.關鍵字:nx run journal=用python執行，但沒跑出原始碼。</span></span></p>
+<p><span style="color: #000000;"><span><span style="color: #ff6600;">2</span>.需放Download裡(只是demo)=可直接給路徑&lt;path:path&gt;名稱(yrl.學號)，使學號在路徑連結。</span></span></p>
+<p><span style="color: #000000;"><span>3.cmsimde@...=為release轉出版本，會改變數字。</span></span></p>
+<p><span style="color: #000000;"><span></span></span></p>
+<p><span style="color: #000000;"><span></span></span></p>

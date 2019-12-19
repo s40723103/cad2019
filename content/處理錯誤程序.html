@@ -143,7 +143,7 @@ img.add_border {
                             <li><a href="./../blog/index.html">blog</a></li>
                         </ul>
                       </li>
-                     <li class='has-children'><a href='About.html'>About</a><ul class='dropdown'><li><a href='處理錯誤程序.html'>處理錯誤程序</a></li></ul><li><a href='Develop.html'>Develop</a><li class='has-children'><a href='每週練習內容.html'>每週練習內容</a><ul class='dropdown'><li><a href='Week2.html'>Week2</a><li><a href='Week3.html'>Week3</a><li><a href='Week5.html'>Week5</a><li><a href='Week6.html'>Week6</a><li><a href='Week7.html'>Week7</a><li><a href='Week8.html'>Week8</a><li><a href='Week9.html'>Week9</a><li><a href='Week10-11.html'>Week10-11</a><li><a href='Week12.html'>Week12</a><li><a href='Week13.html'>Week13</a></li>
+                     <li class='has-children'><a href='About.html'>About</a><ul class='dropdown'><li><a href='處理錯誤程序.html'>處理錯誤程序</a><li><a href='webots.html'>webots</a></li></ul><li><a href='Develop.html'>Develop</a><li class='has-children'><a href='每週練習內容.html'>每週練習內容</a><ul class='dropdown'><li><a href='Week2.html'>Week2</a><li><a href='Week3.html'>Week3</a><li><a href='Week5.html'>Week5</a><li><a href='Week6.html'>Week6</a><li><a href='Week7.html'>Week7</a><li><a href='Week8.html'>Week8</a><li><a href='Week9.html'>Week9</a><li><a href='Week10-11.html'>Week10-11</a><li><a href='Week12.html'>Week12</a><li><a href='Week13.html'>Week13</a><li><a href='Week14.html'>Week14</a></li>
                       </ul>
                 </nav>
               </div>
@@ -154,15 +154,37 @@ img.add_border {
           </div>
           
         </header>
-    <div id="tipue_search_content">About << <a href='About.html'>Previous</a> <a href='Develop.html'>Next</a> >> Develop<br /><h1>處理錯誤程序</h1>
-<p><span style="color: #ff6600;">1</span>.當倉儲git pull+分組倉儲網址後發現無法正常開啟近端</p>
+    <div id="tipue_search_content">About << <a href='About.html'>Previous</a> <a href='webots.html'>Next</a> >> webots<br /><h1>處理錯誤程序</h1>
+<p>Q<span style="color: #ff6600;">當倉儲git pull+分組倉儲網址後發現無法正常開啟近端</span></p>
 <p><span style="color: #ff0000;">A</span>:<br/>將倉儲start鍵放入文字編輯器並且查看，發現有多一個分號（：），將分號刪除並儲存後即可進入近端。</p>
-<p><span style="color: #000000;">原因</span>：<br/>因為有人倉儲本身是壞的，因此當其他人gitpull時會讓他人倉儲錯誤，造成倉儲近端損毀。</p>
+<p><span style="color: #000000;"><span style="color: #ff0000;">RESEASON</span>原因</span>：<br/>因為有人倉儲本身是壞的，因此當其他人gitpull時會讓他人倉儲錯誤，造成倉儲近端損毀。</p>
 <p>Before</p>
 <p><img alt="" height="733" src="./../images/SciTE_36MTvUZbDJ.png" width="562"/></p>
 <p>After</p>
 <p><img alt="" height="733" src="./../images/SciTE_WmXxrhgYK4.png" width="562"/></p>
-<p><a href="https://github.com/mdecourse/cmsimde"></a></p><br />About << <a href='About.html'>Previous</a> <a href='Develop.html'>Next</a> >> Develop</div>
+<p>Q<span style="color: #ff6600;">為什麼用了git pull 分組倉儲網址完無法正確連結完成並進行改</span></p>
+<p><span style="color: #ff0000;">A:</span></p>
+<p>先將倉儲中最新版本反向拉回（左為本身，右為管理者）並且git commit git push上去後再次進入近端即可改為最新版本進行改版推送</p>
+<p>EX:</p>
+<p><img alt="" height="38" src="./../images/1576172831774.jpg" width="700"/></p>
+<p><span style="color: #ff0000;">RESEASON</span>(原因 ):<br/>有可能因為尚未推送回分組倉儲使最新版本與自身隨身碟中可攜系統舊版沒有連結成功，因此git pull 分組倉儲網址完進入近端才會還是舊版</p>
+<p>Q<span style="color: #ff6600;">為什麼管理員merge完會使倉儲爆掉，產生舊版與新版衝突(如下)</span></p>
+<p><img alt="" height="439" src="./../images/chrome_NgGYXIPV5c.png" width="900"/></p>
+<p><span style="color: #ff0000;">A:</span></p>
+<p>在這次解決問題中，由於近端未有衝突問題並且使用正常，進入近端按下轉靜態後再次git push上傳即可恢復網頁</p>
+<p><span style="color: #ff0000;">RESEASON</span><span>(原因 ):</span></p>
+<p>有可能是因為其中一位倉儲推送上去使用到git pull的緣故使得新舊版產生合併問題，造成有兩個版面的緣由</p>
+<p>Q<span style="color: #ff6600;">進入近端卻直接跳下一行並沒有做任何作動</span></p>
+<p>EX:</p>
+<p>D:\87\cmsimde&gt;python wsgi.py</p>
+<p><span>D:\87\cmsimde&gt;</span></p>
+<p><span style="color: #ff0000;">A:</span></p>
+<p><span style="color: #ff0000;"><span style="color: #000000;">將啟動程式按鍵(start_mdecourse.bat)拖曳到SciTe裡，並將裡面其中一行程式多餘的開頭程式<span>%path%</span>刪除，重新啟動(按下Stop.bat)即可恢復正常。</span><br/></span></p>
+<p><span style="color: #ff0000;"><span style="color: #000000;"><img alt="" height="710" src="./../images/SciTE_2019-12-19_22-28-04.png" width="800"/></span></span></p>
+<p><span style="color: #ff0000;"><span style="color: #000000;">如上圖所示，但前面的<span>%path%以更改完畢，因此範例中的程式是已經改善完畢的。</span></span></span></p>
+<p><span style="color: #ff0000;">RESEASON(原因 ):</span></p>
+<p><span style="color: #ff0000;"><span style="color: #000000;"><span>因為%path%為進入近端之bug，需查看是否修正完畢。</span></span></span></p>
+<br />About << <a href='About.html'>Previous</a> <a href='webots.html'>Next</a> >> webots</div>
         
     <!-- footer -->
       <div class="container">
