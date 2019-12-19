@@ -33,6 +33,9 @@
 <v t="leo.20191220011344.1"><vh>week14-1</vh>
 <v t="leo.20191220011344.2"><vh>week14-1</vh></v>
 </v>
+<v t="leo.20191220012028.1"><vh>week14-1.1</vh>
+<v t="leo.20191220012028.2"><vh>week14-1</vh></v>
+</v>
 <v t="leo.20191220011524.1"><vh>week14-2</vh>
 <v t="leo.20191220011524.2"><vh>week14-1</vh></v>
 </v>
@@ -440,9 +443,6 @@ NX12=規格、功能性相對齊全，但為了配合Windows 7之後的升級改
 
 在第十四週也逐步介紹NX、Solvespace、Webots的執行與互動
 
-Q.如何用SciTe執行Python，與NX、Solvespace、Webots互動
-
-A:程式由外部控制虛擬、實體(大略贅述，詳情敘述只紀錄關鍵字)
 
 </t>
 <t tx="leo.20191220011524.1">&lt;section data-markdown&gt;
@@ -462,6 +462,22 @@ A:程式由外部控制虛擬、實體(大略贅述，詳情敘述只紀錄關�
 2.需放Download裡(只是demo)=可直接給路徑&lt;path:path&gt;名稱(yrl.學號)，使學號在路徑連結。
 
 3.cmsimde@...=為release轉出版本，會改變數字。
+</t>
+<t tx="leo.20191220012028.1">&lt;section data-markdown&gt;
+    &lt;script type="text/template"&gt;
+@others
+    &lt;/script&gt;
+&lt;/section&gt;
+
+
+						
+</t>
+<t tx="leo.20191220012028.2">WEEK14
+
+Q.如何用SciTe執行Python，與NX、Solvespace、Webots互動
+
+A:程式由外部控制虛擬、實體(大略贅述，詳情敘述只紀錄關鍵字)
+
 </t>
 </tnodes>
 </leo_file>
