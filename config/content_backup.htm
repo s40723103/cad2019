@@ -39,9 +39,9 @@
 <p><span style="color: #ff0000;"><span style="color: #000000;">如上圖所示，但前面的<span>%path%以更改完畢，因此範例中的程式是已經改善完畢的。</span></span></span></p>
 <p><span style="color: #ff0000;">RESEASON(原因 ):</span></p>
 <p><span style="color: #ff0000;"><span style="color: #000000;"><span>因為%path%為進入近端之bug，需查看是否修正完畢。</span></span></span></p>
-<h2><span color="#000000" style="color: #000000;">webots</span></h2>
+<h2>webots</h2>
 <p><span></span></p>
-<p></p><h2>webots</h2>
+<p></p>
 <p><span></span></p>
 <p></p><h1>Develop</h1>
 <p><a href="https://github.com/mdecourse/cmsimde">https://github.com/mdecourse/cmsimde</a> 的開發, 可以在一個目錄中放入 cmsimde, 然後將 up_dir 中的內容放到與 cmsimde 目錄同位階的地方, 使用 command 進入 cmsimde 目錄, 執行 python wsgi.py, 就可以啟動, 以瀏覽器 https://localhost:9443 就可以連接, 以 admin 作為管理者密碼, 就可以登入維護內容.</p>
@@ -154,7 +154,15 @@
 <p>對於剛接觸兩款軟體的新手而言，<span style="color: #ff6600;">NX12</span>為接受度較高的高階套件，模擬與加工程序與應力分析和繪製3D草圖為該套件之特色，並且指令相對於簡潔明瞭，運用在繪製草圖或是物件分析的部分都做得相對周到，儘管模擬加工方面之限制比較多之外，整體操作上較為順手。</p>
 <p>另一方面<span style="color: #ff6600;">Webots</span>主要為3D模擬套件，實際使用物體去模擬移動位置，可變換出不同場景已供參考，在設定操作步驟方面相對繁瑣，而測試機器人與機械傳動件作動為該套件主要特性，也可指定對象的圖形和物理屬性。</p>
 <p><span style="color: #ff6600;">註</span>:圖形屬性包括對象的形狀，尺寸，位置和方向，顏色和紋理。</p>
-<p><span style="color: #ff6600;">結論:<span style="color: #000000;">兩者套件比較下，個人偏向使用NX操作，因操作明瞭標示明顯，各指令也會給予相對詳細的解說，是新手也能操作順手的軟體。</span></span></p><h2>Week13</h2>
+<p><span style="color: #ff6600;">結論:<span style="color: #000000;">兩者套件比較下，個人偏向使用NX操作，因操作明瞭標示明顯，各指令也會給予相對詳細的解說，是新手也能操作順手的軟體。</span></span></p>
+<p><span style="color: #ff6600;"><span style="color: #000000;"> </span></span></p>
+<p><span style="color: #ff0000;">第十二週筆記</span><span style="color: #ff6600;"><span style="color: #000000;">:</span></span></p>
+<p><span style="color: #ff6600;"><span style="color: #000000;">利用webots(開放式)和v-rep(無開放檔案格式)</span></span></p>
+<p><span style="color: #ff6600;"><span style="color: #000000;">運用:</span></span></p>
+<p><span color="#000000" style="color: #000000;">nx12=可二次開發</span></p>
+<p>nx3無開發</p>
+<p>webots:有五種程式可運用，ex:</p>
+<p><span style="color: #ff6600;"><span style="color: #000000;"></span></span></p><h2>Week13</h2>
 <p>第13週-Solvespace 與 NX12 參數繪圖與 V-rep 結合應用</p>
 <p>重點筆記: 講解NX3與NX12之間特性、差異</p>
 <p><span style="color: #ff6600;">NX3</span><br/>使用輸出VRML[選VRML2.0，轉入Webots(副檔名.wrl)]<br/>並勾選選項<br/>1.output lights<br/>2.output matenals<br/>3.recursive multi file<br/><span>註</span>:<br/>1.imput VRML為Webots打開之檔案類型<br/>2.solvespace無法轉成wrl檔<br/>3.wrl檔為文字檔<br/><br/><span style="color: #ff6600;">NX12</span><br/>重要檔案<br/>1.NXASSEMBLY(作用為轉檔)=IGES也是轉檔<br/>2.NXBIN<br/>3.UGII<br/>註:<br/>1.Journal=畫圖中並同時儲存<br/><br/><span style="color: #ff0000;">比較差異</span></p>
