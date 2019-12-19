@@ -21,9 +21,6 @@
 <v t="leo.20180902120523.9"><vh>封面投影片</vh>
 <v t="leo.20180902120523.10"><vh>封面投影片內容</vh></v>
 </v>
-<v t="leo.20191213004522.1"><vh>13 week-nx3</vh>
-<v t="leo.20191213004522.3"><vh>13週內容-1</vh></v>
-</v>
 <v t="leo.20191213005317.1"><vh>13 week-nx12</vh>
 <v t="leo.20191213005317.2"><vh>13週內容-1</vh></v>
 </v>
@@ -32,6 +29,12 @@
 </v>
 <v t="leo.20191213005013.1"><vh>13 week-2</vh>
 <v t="leo.20191213005013.3"><vh>13週內容-2</vh></v>
+</v>
+<v t="leo.20191220011344.1"><vh>week14-1</vh>
+<v t="leo.20191220011344.2"><vh>week14-1</vh></v>
+</v>
+<v t="leo.20191220011524.1"><vh>week14-2</vh>
+<v t="leo.20191220011524.2"><vh>week14-1</vh></v>
 </v>
 <v t="leo.20180902120523.11"><vh>週期課程</vh>
 <v t="leo.20180902120523.12"><vh>投影片快捷鍵</vh></v>
@@ -340,33 +343,6 @@ QLineEdit#editorLabel {
 }</t>
 <t tx="leo.20180902120538.3">horizontal: body pane to the left
 vertical: body pane on the botton</t>
-<t tx="leo.20191213004522.1">&lt;section data-markdown&gt;
-    &lt;script type="text/template"&gt;
-@others
-    &lt;/script&gt;
-&lt;/section&gt;
-
-
-						
-</t>
-<t tx="leo.20191213004522.3">WEEK13
-Solvespace 與 NX12 參數繪圖與 V-rep 結合應用
-
-重點筆記:  講解NX3與NX12之間特性、差異
-NX3
-使用輸出VRML[選VRML2.0，轉入Webots(副檔名.wrl)]，並勾選以下選項
-1.output lights
-2.output matenals
-3.recursive multi file
-
-註
-1.imput VRML為Webots打開之檔案類型
-2.solvespace無法轉成wrl檔
-3.wrl檔為文字檔
-
-
-
-        </t>
 <t tx="leo.20191213005013.1">&lt;section data-markdown&gt;
     &lt;script type="text/template"&gt;
 @others
@@ -447,6 +423,45 @@ NX12=規格、功能性相對齊全，但為了配合Windows 7之後的升級改
 * 按 b 或 . 鍵可以切換螢幕黑屏 (black)
 * 按 Esc 可以退出全螢幕或全域檢視 (Escape)
 
+</t>
+<t tx="leo.20191220011344.1">&lt;section data-markdown&gt;
+    &lt;script type="text/template"&gt;
+@others
+    &lt;/script&gt;
+&lt;/section&gt;
+
+
+						
+</t>
+<t tx="leo.20191220011344.2">WEEK14
+
+重點筆記:   
+同步啟動跨組自評與互評機制, 並針對課程內容所要求的任務要項逐一查驗各組員學習成效,同時也強制性規定需作筆記。
+
+在第十四週也逐步介紹NX、Solvespace、Webots的執行與互動
+
+Q.如何用SciTe執行Python，與NX、Solvespace、Webots互動
+
+A:程式由外部控制虛擬、實體(大略贅述，詳情敘述只紀錄關鍵字)
+
+</t>
+<t tx="leo.20191220011524.1">&lt;section data-markdown&gt;
+    &lt;script type="text/template"&gt;
+@others
+    &lt;/script&gt;
+&lt;/section&gt;
+
+
+						
+</t>
+<t tx="leo.20191220011524.2">WEEK14
+片刻紀錄:
+
+1.關鍵字:nx run journal=用python執行，但沒跑出原始碼。
+
+2.需放Download裡(只是demo)=可直接給路徑&lt;path:path&gt;名稱(yrl.學號)，使學號在路徑連結。
+
+3.cmsimde@...=為release轉出版本，會改變數字。
 </t>
 </tnodes>
 </leo_file>
