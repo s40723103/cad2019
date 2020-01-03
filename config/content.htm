@@ -193,4 +193,60 @@
 <h5>這是繪圖過程<iframe allowfullscreen="allowfullscreen" height="500" src="//www.youtube.com/embed/deyuv227R-M" width="700"></iframe>之後有轉出到v-tep</h5>
 <p><img alt="" height="379" src="/images/vrep_gwJJA3vXMY.png" width="700"/>心得:</p>
 <p>在一開始畫零件時腦袋一片空白，當下知道要考試有點慌張，而後又遇到指令的問題，這過程中與時間賽跑出充滿緊張與刺激感，最耨終於把成品做出，雖然圖文不符感到很抱歉，但在時間有限的課程裡，這是我盡量做出的成果，也了解匯出的應用是多麼重要的部分。</p>
+<h2>Week17</h2>
+<p>書本翻譯:</p>
+<p>分配內容=WEBOTS前半段</p>
+<p><span style="color: #993300;">Webots User Guide</span><br/><span style="color: #ff9900;">翻譯:</span>用戶指南手冊</p>
+<p><span style="color: #993300;">Tutorial 2: Modification of the Environment (30 Minutes)</span><br/><span style="color: #993300;">In this tutorial, we will teach you how to create simple objects in the environment. The first step will be to create a ball which will interact with the environment. We will tackle several concepts related to the nodes: what is their meaning, how to create them, how they have to be affiliated, etc. Moreover we will see how to set up physics.</span></p>
+<p><span style="color: #993300;">Several kinds of nodes will be introduced. Their detailed definition can be found in Reference Manual. Having the nodes chart diagram in front of you, will also help understanding the nodes inheritance relationship.</span></p>
+<p><br/><span style="color: #ff9900;">翻譯:</span>教程2：修改環境（30分鐘）<br/>教學如何在環境中創建雛形。第一步將創建一個與環境互動的球。我們將處理與節點有關的幾個概念：如何創建它們、如何關聯它們等等。<br/>此外，還需將了解如何設置物理學。</p>
+<p>以下將介紹幾種節點。詳細定義可在參考手冊中找到。擁有節點圖表，也將助於理解節點繼承關係。</p>
+<p><br/><span style="color: #993300;">Index</span><br/><span style="color: #993300;">A New Simulation</span><br/><span style="color: #993300;">Modifying the Floor</span><br/><span style="color: #993300;">The Solid Node</span><br/><span style="color: #993300;">Create a Ball</span><br/><span style="color: #993300;">Geometries</span><br/><span style="color: #993300;">DEF-USE Mechanism</span><br/><span style="color: #993300;">Add Walls</span><br/><span style="color: #993300;">Solution: World File</span><br/><span style="color: #993300;">Efficiency</span><br/><span style="color: #993300;">Conclusion</span></p>
+<p><span style="color: #ff9900;">翻譯:</span></p>
+<p>索引<br/>新建模擬<br/>修改地板<br/>節點<br/>創建球體<br/>幾何形狀<br/>定義使用機制<br/>添加牆<br/>解決方案：世界文件<br/>效率<br/>結論</p>
+<p></p>
+<p><br/><span style="color: #993300;">A New Simulation</span><br/><span style="color: #993300;">First we create a new simulation based on the one created in Tutorial 1.</span></p>
+<p><span style="color: #993300;">Hands-on #1: Make sure the my_first_simulation.wbt world file is open, and that the simulation is paused and is at a virtual time of 0. Using the File / Save World As... menu, save the simulation as obstacles.wbt.</span></p>
+<p><span style="color: #ff9900;">翻譯:</span>新建模擬<br/>首先根據教程1中創建的模擬創建一個新的模擬。</p>
+<p>步驟1：確保打開了my_first_simulation.wbt文件，並且模擬已暫停並且處於虛擬時間0。使用“文件/另存世界為...”菜單，保存the simulation為obstacles.wbt。</p>
+<p></p>
+<p><br/><span style="color: #993300;">Modifying the Floor</span><br/><span style="color: #993300;">The default RectangleArena PROTO defines a simple floor pinned on the static environment, i.e. without Physics node, and surrounded by walls. Other pre-built floors are available in the Webots objects library. We will now delete the RectangleArena node and add a simple floor that we will manually surround with walls later in this tutorial.</span></p>
+<p><span style="color: #993300;">Hands-on #2: To remove the RectangleArena, select it either in the 3D view or in the scene tree view with a left click and press the Delete key on your keyboard. Alternatively, you can right click on it in the 3D view and select Delete in the context menu (you can also use the context menu directly in the scene tree view). Select the TexturedBackroundLight node and click on the Add button. In the open dialog box, and choose PROTO nodes (Webots Projects) / objects / floors / Floor (Solid).</span></p>
+<p><span style="color: #993300;">The newly added Floor PROTO has a default size of 10mx10m, but it is possible to adjust its size, its position and texture by changing the corresponding fields.</span></p>
+<p><span style="color: #993300;">Hands-on #3: In the scene tree view select and expand the Floor. Modify the size field and set it to {1, 1} to resize it to 1mx1m.</span></p>
+<p><br/><span style="color: #ff9900;">翻譯:</span>修改地板<br/>默認的RectangleArena PROTO定義一個固定在靜態環境上的Floor，即沒有Physics節點並且被牆壁包圍。 Webots對像庫中提供了其他預建樓層。現在，我們將刪除RectangleArena節點，並添加一個簡單的Floor，在本教程的後面部分將用牆手動將其包圍。</p>
+<p>步驟2：要刪除RectangleArena，在3D視圖或場景樹視圖中單擊鼠標左鍵選重物件，然後按下Delete鍵。<br/>或者，可以在3D視圖中右鍵單擊它，然後在上下文菜單中選擇“刪除”（也可以直接在場景樹視圖中使用上下文菜單）。<br/>選擇TexturedBackroundLight節點，然後單擊“添加”按鈕。<br/>在打開的對話框中，然後選擇PROTO節點（Webots項目）/對象/ Floors / Floor（實心）。</p>
+<p>增添新的Floor PROTO的尺寸為10mx10m，也可以通過更改相應的字段來調整其大小，位置和紋理。</p>
+<p>步驟3：在場景樹視圖中，選擇並展開“Floor”。修改大小字段並將其設置為{1，1}以將其大小調整為1mx1m。</p>
+<p></p>
+<p><span style="color: #993300;">The Solid Node</span></p>
+<p><span style="color: #993300;">This subsection introduces the most important base node in Webots: the Solid node, from which many other nodes derive.</span></p>
+<p><span style="color: #993300;">A Solid node represents a rigid body, that is a body in which deformation can be neglected. The distance between any two given points of a rigid body remains constant in time regardless of external forces exerted on it. For example a table, a robot finger phalanx or a wheel are rigid bodies. Soft bodies and articulated objects are not rigid bodies. For example, a rope, a tire, a sponge or an articulated robot arm are not rigid bodies. However, an articulated entity can be broken into several rigid bodies.</span></p>
+<p><span style="color: #993300;">The physics engine of Webots is designed for simulating rigid bodies only. An important step, when designing a simulation, is to break up the various entities into separate rigid bodies.</span></p>
+<p><span style="color: #993300;">To define a rigid body, you will have to create a Solid node. Inside this node you will set up different sub-nodes corresponding to the characteristics of the rigid body. The following figure depicts a rigid body and its sub-nodes. The graphical representation of the Solid node is defined by the Shape nodes populating its children list. The collision bounds are defined in its boundingObject field. The graphical representation and the collision shape are often but not necessarily identical. Finally, the physics field defines if the object belongs to the dynamical or to the static environment. All these sub-nodes are optional, but the physics field needs the boundingObject to be defined.</span></p>
+<p><br/><span style="color: #993300;">The Geometry box (in this figure) stands for any kind of geometrical primitive. In fact, it can be substituted by a Sphere, a Box, a Cylinder, etc.</span></p>
+<p><br/><span style="color: #ff9900;">翻譯:</span></p>
+<p>節點<br/>這部分介紹了Webots中的基礎節點：Solid節點，許多其他節點都來自Solid節點。</p>
+<p>實體節點表示剛體，即可以忽略變形的剛體。<br/>剛體上任意兩個給定點之間的距離在時間上保持恆定，而不管施加在其上的外力如何。<br/>例如，桌子，機械手指骨或輪子是剛體。<br/>軟體和關節物體不是剛體。<br/>例如，繩索，輪胎，海綿或關節式機械臂不是剛性體。<br/>可將一個鉸接的實體分解為幾個剛體。</p>
+<p>Webots的物理引擎僅設計用於模擬剛體。設計仿真時，重要的一步是將各個實體分解為單獨的剛體。</p>
+<p>要定義剛體，必須先創建一個節點。在此節點內，將根據剛體的特性設置不同的子節點。下圖描繪了剛體及其子節點。實體節點的圖形表示由填充其子級列表的Shape節點定義。碰撞範圍在其boundingObject字段中定義。圖形表示和碰撞形狀通常但不一定相同。最後，物理字段定義對像是屬於動態環境還是屬於靜態環境。所有這些子節點都是可選的，但物理場需要定義boundingObject。</p>
+<p>幾何框代表任何類型的幾何圖元。<br/>實際上，它可以用球體，盒子，圓柱體等代替。</p>
+<p></p>
+<p><span style="color: #993300;">Create a Ball</span></p>
+<p><span style="color: #993300;">We will now add a ball to the simulation. That ball will be modeled as a rigid body as shown in this figure. A Sphere node will be used to define the geometry of our ball.</span></p>
+<p><span style="color: #993300;">Hands-on #4: In the scene tree view, select the last node and press the Add button. In the dialog, open the Bases nodes section and select the Solid node. In the scene tree view, expand the Solid node and select its children field. Add a Shape node to it by using the Add button. Select the appearance field of the Shape node and use the Add button to add a PBRAppearance node.</span></p>
+<p><span style="color: #993300;">Add a Sphere node as the geometry field of the newly created Shape node.</span><br/><span style="color: #993300;">Expand the PBRAppearance node and change its metalness field to 0 and its roughness field to 1.</span><br/><span style="color: #993300;">Add another Sphere node to the boundingObject field of the Solid.</span><br/><span style="color: #993300;">Finally add a Physics node to the physics field of the Solid.</span><br/><span style="color: #993300;">By modifying the translation field of the Solid node, place the ball in front of the robot (at {0, 0.2, -0.2} for example).</span><br/><span style="color: #993300;">Save the simulation.</span><br/><span style="color: #993300;">The result is depicted in this figure.</span><br/><span style="color: #993300;">tutorial_ball.png</span><br/><span style="color: #993300;">Your first rigid body in Webots.</span><br/><span style="color: #993300;">When the simulation is started, the ball hits the floor. You can move the ball by applying a force to it (Ctrl + Alt + left-click + drag). The contact points between the ball and the floor can be displayed as cyan lines by enabling the View / Optional Rendering / Show Contact Points menu item.</span></p>
+<p><span style="color: #ff9900;">翻譯:</span><br/>創建球體<br/>將球添加到模擬中。如圖所示，該球將被建模為剛體。球體節點將用於定義球的幾何形狀。</p>
+<p>步驟4：在場景樹視圖中，選擇最後一個節點，然後按“添加”按鈕。在對話框中，打開“基礎節點”部分，然後選擇“實體”節點。在場景樹視圖中，展開“實體”節點並選擇其子字段。使用“添加”按鈕向其添加一個Shape節點。選擇“形狀”節點的外觀字段，然後使用“添加”按鈕添加一個PBRAppearance節點。</p>
+<p>將球體節點添加為新創建的形狀節點的幾何字段。<br/>展開PBRAppearance節點，並將其金屬性字段更改為0，並將其粗糙度字段更改為1。<br/>將另一個Sphere節點添加到Solid的boundingObject字段。<br/>最後，將一個Physics節點添加到Solid的Physical字段。<br/>通過修改實體節點的平移字段，將球放置在機器人的前面（例如，在{0，0.2，-0.2}處）。<br/>保存模擬。<br/>結果如圖所示。<br/>tutorial_ball.png<br/>Webots中的第一個剛體。<br/>當模擬開始時，球擊中地板。可通過向球施加力來移動球（Ctrl + Alt +左鍵單擊+拖動）。</p>
+<p>通過啟用“查看/可選渲染/顯示接觸點”菜單項，可以將球和地板之間的接觸點顯示為青色線。</p>
+<p><br/><span style="color: #993300;">Geometries</span><br/><span style="color: #993300;">To define the ball, we used the Sphere node in two different contexts: for the graphical representation (children) and to define the physical bounds (boundingObject). All Geometry nodes (such as the Sphere node) can be used in a graphical context. However, only a subset of them can be used in a physical context. The nodes chart diagram indicates which nodes are supported in each context.</span></p>
+<p><span style="color: #993300;">We are now going to reduce the size of the Sphere and increase its graphical quality by increasing the number of triangles used to represent it.</span></p>
+<p><span style="color: #993300;">Hands-on #5: For each Sphere node defining the ball, set its radius field to 0.05 and its subdivision field to 2. Refer to the Reference Manual to understand what the subdivision field stands for.</span></p>
+<p><span style="color: #ff9900;">翻譯:</span></p>
+<p>幾何形狀<br/>為了定義球，在兩個不同的上下文中使用了Sphere節點：用於圖形表示（子代）和定義物理邊界（boundingObject）。<br/>使得Geometry節點（例如Sphere節點）都可以在圖形上下文中使用。但它們的子集只能在物理環境中使用。<br/>節點圖表顯示了每個上下文中支持哪些節點。</p>
+<p>將通過增加用於表示球體的三角形的數量來減小球體的大小並提高其圖形質量。</p>
+<p>步驟5：對於定義球的每個Sphere節點，將其半徑字段設置為0.05，並將其細分字段設置為2。</p>
+<p>請參閱《參考手冊》以了解細分字段的含義。</p>
+<p></p>
 <p></p>
