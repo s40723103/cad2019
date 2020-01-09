@@ -34,6 +34,18 @@
 <v t="leo.20200109184950.1"><vh>4</vh>
 <v t="leo.20200109184950.2"><vh>4</vh></v>
 </v>
+<v t="leo.20200109201051.1"><vh>4</vh>
+<v t="leo.20200109201051.2"><vh>4</vh></v>
+</v>
+<v t="leo.20200109201054.1"><vh>4</vh>
+<v t="leo.20200109201054.2"><vh>4</vh></v>
+</v>
+<v t="leo.20200109201055.1"><vh>4</vh>
+<v t="leo.20200109201055.2"><vh>4</vh></v>
+</v>
+<v t="leo.20200109201059.1"><vh>4</vh>
+<v t="leo.20200109201059.2"><vh>4</vh></v>
+</v>
 </v>
 <v t="leo.20200109174640.1"><vh>13 week-nx12</vh>
 <v t="leo.20200109174640.2"><vh>13週內容-1</vh></v>
@@ -512,7 +524,7 @@ NX12
     &lt;/script&gt;
 &lt;/section&gt;
 </t>
-<t tx="leo.20200109175922.1">chrome_2019-11-29_03-31-21
+<t tx="leo.20200109175922.1">推送紀錄
 
 &lt;img alt height="450" src="./../images/chrome_2020-01-09_19-06-13.png"width="600"&gt;</t>
 <t tx="leo.20200109184552.1">&lt;section data-markdown&gt;
@@ -522,6 +534,10 @@ NX12
 &lt;/section&gt;
 </t>
 <t tx="leo.20200109184606.1">學期成果證明
+
+
+
+
 </t>
 <t tx="leo.20200109184639.1">組別貢獻
 
@@ -534,6 +550,35 @@ NX12
     &lt;/script&gt;
 &lt;/section&gt;
 </t>
-<t tx="leo.20200109184950.2"></t>
+<t tx="leo.20200109184950.2">心得:
+在這學期中，接觸到了許多軟件，像是: v-rep、webots、NX、solvespace等等繪畫軟件，並且在摸索過程中得到靈感，感觸許多，下學期的on shape的統整也希望不要。</t>
+<t tx="leo.20200109201051.1">&lt;section data-markdown&gt;
+    &lt;script type="text/template"&gt;
+@others
+    &lt;/script&gt;
+&lt;/section&gt;
+</t>
+<t tx="leo.20200109201051.2"></t>
+<t tx="leo.20200109201054.1">&lt;section data-markdown&gt;
+    &lt;script type="text/template"&gt;
+@others
+    &lt;/script&gt;
+&lt;/section&gt;
+</t>
+<t tx="leo.20200109201054.2"></t>
+<t tx="leo.20200109201055.1">&lt;section data-markdown&gt;
+    &lt;script type="text/template"&gt;
+@others
+    &lt;/script&gt;
+&lt;/section&gt;
+</t>
+<t tx="leo.20200109201055.2"></t>
+<t tx="leo.20200109201059.1">&lt;section data-markdown&gt;
+    &lt;script type="text/template"&gt;
+@others
+    &lt;/script&gt;
+&lt;/section&gt;
+</t>
+<t tx="leo.20200109201059.2"></t>
 </tnodes>
 </leo_file>
