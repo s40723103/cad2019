@@ -25,7 +25,7 @@
 <v t="leo.20191213005317.2"><vh>1</vh>
 <v t="leo.20200109184639.1"><vh>1</vh></v>
 </v>
-<v t="leo.20200109175910.1"><vh>2</vh>
+<v t="leo.20200109175910.1"><vh>2照片</vh>
 <v t="leo.20200109175922.1"><vh>2</vh></v>
 </v>
 <v t="leo.20200109184552.1"><vh>3</vh>
@@ -514,18 +514,19 @@ NX12
 </t>
 <t tx="leo.20200109175922.1">chrome_2019-11-29_03-31-21
 
-&lt;img alt=""height="450" src="/images/111111.png"width="600"&gt;</t>
+&lt;img alt height="450" src="./../images/chrome_2020-01-09_19-06-13.png"width="600"&gt;</t>
 <t tx="leo.20200109184552.1">&lt;section data-markdown&gt;
     &lt;script type="text/template"&gt;
 @others
     &lt;/script&gt;
 &lt;/section&gt;
 </t>
-<t tx="leo.20200109184606.1">568</t>
+<t tx="leo.20200109184606.1">學期成果證明
+</t>
 <t tx="leo.20200109184639.1">組別貢獻
 
 在組別中擔任定期推送週期之人員
-分別推送
+分別推送第13、14週跟編寫軟體介紹、Deal with problems的頁面
 </t>
 <t tx="leo.20200109184950.1">&lt;section data-markdown&gt;
     &lt;script type="text/template"&gt;
@@ -533,6 +534,6 @@ NX12
     &lt;/script&gt;
 &lt;/section&gt;
 </t>
-<t tx="leo.20200109184950.2">91011</t>
+<t tx="leo.20200109184950.2"></t>
 </tnodes>
 </leo_file>
