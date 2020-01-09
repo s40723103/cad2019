@@ -21,8 +21,22 @@
 <v t="leo.20180902120523.9"><vh>封面投影片</vh>
 <v t="leo.20180902120523.10"><vh>封面投影片內容</vh></v>
 </v>
-<v t="leo.20191213005317.1"><vh>13 week-nx12</vh>
-<v t="leo.20191213005317.2"><vh>13週內容-1</vh></v>
+<v t="leo.20191213005317.1"><vh>成果發表</vh>
+<v t="leo.20191213005317.2"><vh>1</vh>
+<v t="leo.20200109184639.1"><vh>1</vh></v>
+</v>
+<v t="leo.20200109175910.1"><vh>2</vh>
+<v t="leo.20200109175922.1"><vh>2</vh></v>
+</v>
+<v t="leo.20200109184552.1"><vh>3</vh>
+<v t="leo.20200109184606.1"><vh>3</vh></v>
+</v>
+<v t="leo.20200109184950.1"><vh>4</vh>
+<v t="leo.20200109184950.2"><vh>4</vh></v>
+</v>
+</v>
+<v t="leo.20200109174640.1"><vh>13 week-nx12</vh>
+<v t="leo.20200109174640.2"><vh>13週內容-1</vh></v>
 </v>
 <v t="leo.20191213005418.1"><vh>13 week-diffient</vh>
 <v t="leo.20191213005418.2"><vh>13週內容-1</vh></v>
@@ -368,25 +382,18 @@ File&gt;Preferences&gt;User interface&gt;Tools
 主要方面日後藉由程式去操作NX12
 
 Finish.</t>
-<t tx="leo.20191213005317.1">&lt;section data-markdown&gt;
+<t tx="leo.20191213005317.1">&lt;section&gt;
+@others
+&lt;/section&gt;
+</t>
+<t tx="leo.20191213005317.2">&lt;section data-markdown&gt;
     &lt;script type="text/template"&gt;
 @others
     &lt;/script&gt;
 &lt;/section&gt;
 
 
-						
-</t>
-<t tx="leo.20191213005317.2">WEEK13
 
-NX12
-以下為nx12重要檔案
-
-1.NXASSEMBLY(作用為轉檔)=IGES也是轉檔
-2.NXBIN
-3.UGII0
-註
-1.Journal=畫圖中並同時儲存
 </t>
 <t tx="leo.20191213005418.1">&lt;section data-markdown&gt;
     &lt;script type="text/template"&gt;
@@ -479,5 +486,53 @@ Q.如何用SciTe執行Python，與NX、Solvespace、Webots互動
 A:程式由外部控制虛擬、實體(大略贅述，詳情敘述只紀錄關鍵字)
 
 </t>
+<t tx="leo.20200109174640.1">&lt;section data-markdown&gt;
+    &lt;script type="text/template"&gt;
+@others
+    &lt;/script&gt;
+&lt;/section&gt;
+
+
+						
+</t>
+<t tx="leo.20200109174640.2">WEEK13
+
+NX12
+以下為nx12重要檔案
+
+1.NXASSEMBLY(作用為轉檔)=IGES也是轉檔
+2.NXBIN
+3.UGII0
+註
+1.Journal=畫圖中並同時儲存
+</t>
+<t tx="leo.20200109175910.1">&lt;section data-markdown&gt;
+    &lt;script type="text/template"&gt;
+@others
+    &lt;/script&gt;
+&lt;/section&gt;
+</t>
+<t tx="leo.20200109175922.1">chrome_2019-11-29_03-31-21
+
+&lt;img alt=""height="450" src="/images/111111.png"width="600"&gt;</t>
+<t tx="leo.20200109184552.1">&lt;section data-markdown&gt;
+    &lt;script type="text/template"&gt;
+@others
+    &lt;/script&gt;
+&lt;/section&gt;
+</t>
+<t tx="leo.20200109184606.1">568</t>
+<t tx="leo.20200109184639.1">組別貢獻
+
+在組別中擔任定期推送週期之人員
+分別推送
+</t>
+<t tx="leo.20200109184950.1">&lt;section data-markdown&gt;
+    &lt;script type="text/template"&gt;
+@others
+    &lt;/script&gt;
+&lt;/section&gt;
+</t>
+<t tx="leo.20200109184950.2">91011</t>
 </tnodes>
 </leo_file>
