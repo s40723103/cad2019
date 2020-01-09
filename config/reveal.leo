@@ -22,29 +22,59 @@
 <v t="leo.20180902120523.10"><vh>封面投影片內容</vh></v>
 </v>
 <v t="leo.20191213005317.1"><vh>成果發表</vh>
-<v t="leo.20191213005317.2"><vh>1</vh>
+<v t="leo.20191213005317.2"><vh>分組貢獻度</vh>
 <v t="leo.20200109184639.1"><vh>1</vh></v>
 </v>
 <v t="leo.20200109175910.1"><vh>2照片</vh>
 <v t="leo.20200109175922.1"><vh>2</vh></v>
 </v>
-<v t="leo.20200109184552.1"><vh>3</vh>
-<v t="leo.20200109184606.1"><vh>3</vh></v>
+<v t="leo.20200109222457.1"><vh>2照片-1</vh>
+<v t="leo.20200109222457.2"><vh>2</vh></v>
 </v>
-<v t="leo.20200109184950.1"><vh>4</vh>
+<v t="leo.20200109222517.1"><vh>2照片-2</vh>
+<v t="leo.20200109222517.2"><vh>2</vh></v>
+</v>
+<v t="leo.20200109231619.1"><vh>個人</vh>
+<v t="leo.20200109231619.2"><vh>3</vh></v>
+</v>
+<v t="leo.20200109231620.1"><vh>個人照片</vh>
+<v t="leo.20200109231620.2"><vh>3</vh></v>
+</v>
+<v t="leo.20200109231924.1"><vh>個人照片-1</vh>
+<v t="leo.20200109231924.2"><vh>3</vh></v>
+</v>
+<v t="leo.20200109231448.1"><vh>3</vh>
+<v t="leo.20200109231448.2"><vh>3</vh></v>
+</v>
+<v t="leo.20200109184950.1"><vh>4照片</vh>
 <v t="leo.20200109184950.2"><vh>4</vh></v>
 </v>
-<v t="leo.20200109201051.1"><vh>4</vh>
+<v t="leo.20200109201051.1"><vh>4照片-1</vh>
 <v t="leo.20200109201051.2"><vh>4</vh></v>
 </v>
-<v t="leo.20200109201054.1"><vh>4</vh>
-<v t="leo.20200109201054.2"><vh>4</vh></v>
+<v t="leo.20200109201054.1"><vh>5照片</vh>
+<v t="leo.20200109201054.2"><vh>5</vh></v>
 </v>
-<v t="leo.20200109201055.1"><vh>4</vh>
-<v t="leo.20200109201055.2"><vh>4</vh></v>
+<v t="leo.20200109201055.1"><vh>5照片-1</vh>
+<v t="leo.20200109201055.2"><vh>5</vh></v>
 </v>
-<v t="leo.20200109201059.1"><vh>4</vh>
+<v t="leo.20200109201059.1"><vh>心得</vh>
 <v t="leo.20200109201059.2"><vh>4</vh></v>
+</v>
+<v t="leo.20200109233317.1"><vh>6操作成果</vh>
+<v t="leo.20200109233317.2"><vh>4</vh></v>
+</v>
+<v t="leo.20200109232115.1"><vh>6照片-1</vh>
+<v t="leo.20200109232115.2"><vh>5</vh></v>
+</v>
+<v t="leo.20200109232117.1"><vh>6照片-2</vh>
+<v t="leo.20200109232117.2"><vh>5</vh></v>
+</v>
+<v t="leo.20200109232125.1"><vh>6照片-3</vh>
+<v t="leo.20200109232125.2"><vh>5</vh></v>
+</v>
+<v t="leo.20200109232650.1"><vh>完結</vh>
+<v t="leo.20200109232650.2"><vh>5</vh></v>
 </v>
 </v>
 <v t="leo.20200109174640.1"><vh>13 week-nx12</vh>
@@ -524,25 +554,15 @@ NX12
     &lt;/script&gt;
 &lt;/section&gt;
 </t>
-<t tx="leo.20200109175922.1">推送紀錄
+<t tx="leo.20200109175922.1">## 推送紀錄
 
-&lt;img alt height="450" src="./../images/chrome_2020-01-09_19-06-13.png"width="600"&gt;</t>
-<t tx="leo.20200109184552.1">&lt;section data-markdown&gt;
-    &lt;script type="text/template"&gt;
-@others
-    &lt;/script&gt;
-&lt;/section&gt;
-</t>
-<t tx="leo.20200109184606.1">學期成果證明
-
-
-
-
-</t>
-<t tx="leo.20200109184639.1">組別貢獻
+&lt;img alt height="600" src="./../images/1.png"width="800"&gt;</t>
+<t tx="leo.20200109184639.1">## 組別貢獻
 
 在組別中擔任定期推送週期之人員
-分別推送第13、14週跟編寫軟體介紹、Deal with problems的頁面
+
+分別推送:
+第13、14週跟編寫軟體介紹、Deal with problems的頁面
 </t>
 <t tx="leo.20200109184950.1">&lt;section data-markdown&gt;
     &lt;script type="text/template"&gt;
@@ -550,35 +570,149 @@ NX12
     &lt;/script&gt;
 &lt;/section&gt;
 </t>
-<t tx="leo.20200109184950.2">心得:
-在這學期中，接觸到了許多軟件，像是: v-rep、webots、NX、solvespace等等繪畫軟件，並且在摸索過程中得到靈感，感觸許多，下學期的on shape的統整也希望不要。</t>
+<t tx="leo.20200109184950.2">
+&lt;img alt height="550" src="./../images/4.png"width="600"&gt;</t>
 <t tx="leo.20200109201051.1">&lt;section data-markdown&gt;
     &lt;script type="text/template"&gt;
 @others
     &lt;/script&gt;
 &lt;/section&gt;
 </t>
-<t tx="leo.20200109201051.2"></t>
+<t tx="leo.20200109201051.2">
+&lt;img alt height="550" src="./../images/5.png"width="600"&gt;</t>
 <t tx="leo.20200109201054.1">&lt;section data-markdown&gt;
     &lt;script type="text/template"&gt;
 @others
     &lt;/script&gt;
 &lt;/section&gt;
 </t>
-<t tx="leo.20200109201054.2"></t>
+<t tx="leo.20200109201054.2">
+&lt;img alt height="600" src="./../images/6.png"width="900"&gt;</t>
 <t tx="leo.20200109201055.1">&lt;section data-markdown&gt;
     &lt;script type="text/template"&gt;
 @others
     &lt;/script&gt;
 &lt;/section&gt;
 </t>
-<t tx="leo.20200109201055.2"></t>
+<t tx="leo.20200109201055.2">
+&lt;img alt height="600" src="./../images/7.png"width="900"&gt;</t>
 <t tx="leo.20200109201059.1">&lt;section data-markdown&gt;
     &lt;script type="text/template"&gt;
 @others
     &lt;/script&gt;
 &lt;/section&gt;
 </t>
-<t tx="leo.20200109201059.2"></t>
+<t tx="leo.20200109201059.2">## 心得
+
+
+在這學期中，接觸到了許多軟件，像是:          
+v-rep、webots、NX、solvespace等等繪畫軟件，並且在摸索過程中了解指令與怎麼調配尺寸還有設定順序，諸如此類的範例在著手練習也並不像想像中簡單，可能需要摸索才能慢慢熟悉，而下學期的on shape的統整也希望能順順利利，不然改版太常產生衝突會用超久。</t>
+<t tx="leo.20200109222457.1">&lt;section data-markdown&gt;
+    &lt;script type="text/template"&gt;
+@others
+    &lt;/script&gt;
+&lt;/section&gt;
+</t>
+<t tx="leo.20200109222457.2">
+
+&lt;img alt height="600" src="./../images/2.png"width="800"&gt;</t>
+<t tx="leo.20200109222517.1">&lt;section data-markdown&gt;
+    &lt;script type="text/template"&gt;
+@others
+    &lt;/script&gt;
+&lt;/section&gt;
+</t>
+<t tx="leo.20200109222517.2">
+
+&lt;img alt height="600" src="./../images/3.png"width="800"&gt;</t>
+<t tx="leo.20200109231448.1">&lt;section data-markdown&gt;
+    &lt;script type="text/template"&gt;
+@others
+    &lt;/script&gt;
+&lt;/section&gt;
+</t>
+<t tx="leo.20200109231448.2">## 學期成果證明
+
+
+
+
+</t>
+<t tx="leo.20200109231619.1">&lt;section data-markdown&gt;
+    &lt;script type="text/template"&gt;
+@others
+    &lt;/script&gt;
+&lt;/section&gt;
+</t>
+<t tx="leo.20200109231619.2">## 個人成果
+
+
+
+
+</t>
+<t tx="leo.20200109231620.1">&lt;section data-markdown&gt;
+    &lt;script type="text/template"&gt;
+@others
+    &lt;/script&gt;
+&lt;/section&gt;
+</t>
+<t tx="leo.20200109231620.2">
+&lt;img alt height="600" src="./../images/8.png"width="900"&gt;
+
+
+
+
+</t>
+<t tx="leo.20200109231924.1">&lt;section data-markdown&gt;
+    &lt;script type="text/template"&gt;
+@others
+    &lt;/script&gt;
+&lt;/section&gt;
+</t>
+<t tx="leo.20200109231924.2">
+&lt;img alt height="600" src="./../images/9.png"width="900"&gt;
+
+
+
+
+</t>
+<t tx="leo.20200109232115.1">&lt;section data-markdown&gt;
+    &lt;script type="text/template"&gt;
+@others
+    &lt;/script&gt;
+&lt;/section&gt;
+</t>
+<t tx="leo.20200109232115.2">## solvespace操作影片成果
+
+&lt;img alt height="600" src="./../images/10.png"width="1000"&gt;</t>
+<t tx="leo.20200109232117.1">&lt;section data-markdown&gt;
+    &lt;script type="text/template"&gt;
+@others
+    &lt;/script&gt;
+&lt;/section&gt;
+</t>
+<t tx="leo.20200109232117.2">## v-rep操作影片成果
+&lt;img alt height="600" src="./../images/11.png"width="1000"&gt;</t>
+<t tx="leo.20200109232125.1">&lt;section data-markdown&gt;
+    &lt;script type="text/template"&gt;
+@others
+    &lt;/script&gt;
+&lt;/section&gt;
+</t>
+<t tx="leo.20200109232125.2">## NX操作影片成果
+&lt;img alt height="600" src="./../images/12.png"width="1000"&gt;</t>
+<t tx="leo.20200109232650.1">&lt;section data-markdown&gt;
+    &lt;script type="text/template"&gt;
+@others
+    &lt;/script&gt;
+&lt;/section&gt;
+</t>
+<t tx="leo.20200109232650.2">## 報告結束</t>
+<t tx="leo.20200109233317.1">&lt;section data-markdown&gt;
+    &lt;script type="text/template"&gt;
+@others
+    &lt;/script&gt;
+&lt;/section&gt;
+</t>
+<t tx="leo.20200109233317.2">## 操作成果</t>
 </tnodes>
 </leo_file>
